@@ -1,6 +1,8 @@
-import React from 'react';
-import fetch from 'fetch.js';
+import React, {Component} from 'react';
+import logo from './logo.svg';
 import './App.css';
+import fetchAPI from './Components/fetchAPI';
+
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <fetchAPI />
     </div>
   );
 }
